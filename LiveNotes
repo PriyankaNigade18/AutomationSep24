@@ -1,0 +1,77 @@
+
+27-09-2024
+===================
+Selenium WebDriver
+========================
+It is an interface
+It is an API for WebUI automation testing
+
+WebDriver Setup In Java Project
+===================================
+1.Create new java project
+2.Download selenium client library for selenium.dev site
+3.Add it to eclipse
+4.right click on Project-->Build path--->configure build path-->
+libraries-->class path--->add external library-->add JAR(executable file)
+
+WebDriver setup In Maven
+=============================
+What is Maven
+================
+It is project /build management tool
+
+POM.xml file
+=================
+Project object Model 
+this file is configuration file where entire project setup we can do
+
+1.dependencies(executable file/library)
+2.plugins
+
+
+Maven Repository
+==================
+1.Local Repository: users/.m2 folder
+2.Remote/central repository
+https://mvnrepository.com/
+
+=============================================================
+TestCase:validate Google application title as Google
+Step1: Open Browser with Google application
+Step2: Get the actual title of application
+Step3: Compare with expected title
+Step4: As per comparison display Valid message 
+Step5: Close the browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
