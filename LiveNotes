@@ -43,6 +43,138 @@ Step3: Compare with expected title
 Step4: As per comparison display Valid message 
 Step5: Close the browser
 
+Webdriver Browser based commands
+======================================
+1.get(url)
+2.getTitle()
+3.getCurrentUrl()
+4.getPageSource()
+5.close(): close the current/active window of browser
+6.quit(): close all open window by selenium
+
+7.getWindowHandle()
+8.getWindowHandles()
+
+Selenium Exceptions
+==================
+1.InvalidArgumentException: invalid argument= wrong url address
+
+
+WebDriver Navigation commands
+===================================
+Selenium Provides Navigation interface
+
+driver.navigate():Navigate interface object
+
+1.to(url): navigate to new url /app
+--------------------------------------
+driver.navigate().to(url)
+
+2.back()
+---------------------------------
+driver.navaigate().back()
+
+3.forward()
+----------------------------
+driver.navigate().forward()
+
+4.refresh()
+-------------------------------
+driver.navigate().refresh()
+
+========================================================
+How to automate any webelement?
+=================================
+Step1:Get the address of webelement from web page & identify webelement
+Step2: perform actions on that webelement
+
+ 
+What is WebElement?
+==========================
+In general all WEBUI called webelement.
+example:
+textbox,searchbox,dropdown,link,button,checkbox...etc
+
+In Selenium WebElement is interface
+
+Step1:Get the address of webelement from web page & identify webelement
+------------------------------------------------------------------------
+In selenium we can find the address of webelement using Locator
+
+What is Locators:
+---------------------
+Address of  a webelement from webpage
+
+Selenium Support total 8 locators
+====================================
+1.By id
+2.By name
+3.By className
+4.By linkText
+5.By partialLinkText
+6.By tagName
+
+Dynamic 
+------------
+7.By cssSelector
+8.By xpath
+
+What is By?
+----------------
+By is class in selenium to get the locators
+
+In selenium to identify any webelement
+==========================================
+1.findElement()
+---------------------
+- this method identifies one single webelement
+
+2.findElements()
+---------------------
+- this method identifies multiple weblements 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
