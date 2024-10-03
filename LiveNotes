@@ -51,7 +51,6 @@ Webdriver Browser based commands
 4.getPageSource()
 5.close(): close the current/active window of browser
 6.quit(): close all open window by selenium
-
 7.getWindowHandle()
 8.getWindowHandles()
 
@@ -128,10 +127,97 @@ In selenium to identify any webelement
 1.findElement()
 ---------------------
 - this method identifies one single webelement
+- this method return WebElement interface object
+- this method throws the exception NoSuchElementException if element not found 
 
 2.findElements()
 ---------------------
-- this method identifies multiple weblements 
+- this method identifies multiple weblements
+- this method return List<Webelement>
+- this method never throws any exception if element not found 
+
+===============================================
+Element validation methods
+================================
+1.isDisplayed()
+2.isEnabled()
+3.isSelected()
+
+Actions
+====================
+textbox,searchbox--->pass data--->sendKeys("data",Keys.Keyboard key)
+button,link,checkbox,radio button--->click---->click()
+to clear the text written---->clear()
+
+============================================
+How to automate any hyperlink/link
+====================================
+<a href="https://www.google.com"> Google App </a>
+		<a>                      link text </a>
+1.linkText()-full text
+------------------------------------------
+driver.findElement(By.linkText("Google App"))
+
+2.partialLinkText() -partial match
+--------------------------------------
+driver.findElement(By.partialLinkText("App"))
+
+
+
+
+---------------------
+3-10-2024
+==================
+Synchronization Issue in Selenium
+=======================================
+Time mapping issue between tool and application
+
+Selenium Provides Dynamic wait
+======================================
+1.Implicit
+================
+- It is global wait
+applicable to all webelements from script
+driver.manage().timeouts().implicitlyWait(Duration.ofseconds(10));
+
+
+
+2.Explicit
+=================
+- It is applicable to single webelement as per there condition
+
+1.WebDriverWait class
+2.FluentWait Class
+==================================================
+By className
+==========================
+InvalidSelectorException: Compound class names not permitted
+
+class="oxd-button oxd-button--medium oxd-button--main orangehrm-login-button"
+
+		class1       class2             class3           class4
+		
+Identify class name which match to the element and use the same
+
+================================================================
+By tagName
+=================
+
+Number of images
+Number of input boxes
+Number of Links 
+
+findElements()
+
+
+
+
+
+
+
+
+
+
 
 
 
