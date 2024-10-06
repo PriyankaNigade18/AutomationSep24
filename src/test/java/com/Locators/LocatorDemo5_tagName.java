@@ -27,8 +27,15 @@ public class LocatorDemo5_tagName {
 			System.out.println("Total Images boxes: "+allImages.size());
 			
 			//number of links
-			List<WebElement> allLink= driver.findElements(By.tagName("a"));
+			List<WebElement> allLink=driver.findElements(By.tagName("a"));
 			System.out.println("Total Links boxes: "+allLink.size());
+			
+			//iterate the list
+			for(WebElement i:allLink)
+			{
+				System.out.println(i.getText());
+				System.out.println(i.getAttribute("href"));
+			}
 			
 			
 

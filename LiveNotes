@@ -209,6 +209,123 @@ Number of Links
 
 findElements()
 
+==================================
+WebElement Method
+=================
+1.getText()
+==================
+- to get the text of any element we use this method
+<tagname>text</tagname>
+- html inner text also we can find out using getText()
+
+
+2.getAttribute(attribute)
+==================
+This method return value for that attribute
+==========================================================
+Dynamic Locators
+=====================
+1.By cssSelector
+2.By xpath
+
+cssSelector
+==================
+What is Css?
+---------------------
+It is cascaded style sheet language for webpage to provide styles to the webelement
+
+
+what is cssSelector?
+=========================
+It is locator to locate the webelement based on there css properties
+-cssSelector is faster than xpath(as we can travel only in one direction Parent--->child)
+-cssSelector not support any method
+-cssSelector not support axies
+
+1.tagname with id
+=========================
+Syntax:
+=============
+tagname#id
+
+<input id="user-name">
+
+input#user-name
+
+2.tagname with attribute
+==========================
+syntax:
+=======
+tagname[attribute='value']
+
+<input placeholder="Password">
+input[placeholder='Password']
+
+3.tagname with className
+===============================
+Syntax:
+===========
+tagname.className
+
+<input type="submit" class="btn_action" id="login-button" value="LOGIN">
+
+input.btn_action
+
+4.tagname with id,classname,attribute
+==================================
+Syntax:
+=============
+tagname#id.classname[attribute='value']
+
+<input type="submit" class="btn_action" id="login-button" value="LOGIN">
+
+input#login-button.btn_action[value='LOGIN']
+
+cssSelectors pattern
+=============
+* contains-partail match
+=====================
+
+Syntax:
+=============
+tagname[attribute *='partial value']
+
+placeholder="Username"
+
+input[placeholder *='User']
+input[placeholder *='name']
+
+^ startswith(prefix)
+==================
+input[placeholder ^='User']
+
+$ endswith(suffix)
+=================
+input[placeholder $='name']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
