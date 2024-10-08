@@ -16,6 +16,13 @@ public class GoogleTitleValidation {
 		//get the title
 		String actTitle=driver.getTitle();
 		
+		
+		System.out.println(actTitle);
+		System.out.println(driver.getTitle());
+		
+		
+		
+		/*
 		//compare with expected
 		String expTitle="Google";
 		if(actTitle.equals(expTitle))
@@ -32,7 +39,7 @@ public class GoogleTitleValidation {
 		
 		driver.quit();
 		
-		
+		*/
 		
 		
 		

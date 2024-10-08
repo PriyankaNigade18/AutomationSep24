@@ -303,6 +303,159 @@ $ endswith(suffix)
 =================
 input[placeholder $='name']
 
+=================================================
+DevOps
+==================
+It is a process/culture where one team is able to manage complete SDLC/CICD process
+Development team
+================
+BA
+DEV
+QA
+SA
+
+Operational Team
+===================
+Admin
+sys admin
+n/w admin
+db admin
+
+===================================================
+By xpath
+=================
+xpath is path of the element from xml/html page
+Xpath identify element by directly DOm
+
+What is DOM
+================
+Document object model
+
+HTML DOM
+===================
+<html>----------------root node
+<head>
+<title> Application</title>
+</head>
+<body>
+<input>
+<a>------------------element
+<div>
+</body>
+</html>
+===============================================
+Types of Xpath
+=================
+1.Absolute xpath(Full xpath)
+=====================
+- identify element from root node
+- It starts with '/'
+
+/html/body/section/div/div/div/div/form/div[1]/input
+
+2.Relative xpath(partial xpath)
+======================
+- identify element from its relative property
+- It starts with '//'
+
+//*[@id="email-id"]
+
+* Any tag
+=================
+Syntax:
+===============
+//tagname[@attribute='value']
+
+===========================================
+xpath operator
+=====================
+1.and
+==============
+syntax:
+===========
+//tagname[@attribute1='value' and @attribute2='value']
+
+//input[@name='firstname' and @class='form-control']
+
+2.or
+==========
+syntax:
+===========
+//tagname[@attribute1='value' or @attribute2='value']
+
+//input[@name='firstname' or @class='form-control']
+============================================================
+xpath indexing/position()
+=============================
+Syntax:
+=============
+(xpath)[index]
+
+Syntax:
+=============
+(xpath)[position()=index]
+
+============================================================
+xpath Mathods
+================
+1.text()
+2.normalize-space()
+3.contains()
+4.starts-with()
+
+Xpath Axies
+================
+1.Following 
+2.preceding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
