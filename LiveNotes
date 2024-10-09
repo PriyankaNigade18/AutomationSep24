@@ -396,42 +396,92 @@ Syntax:
 (xpath)[position()=index]
 
 ============================================================
+9-10-2024
+=============
 xpath Mathods
 ================
 1.text()
-2.normalize-space()
-3.contains()
-4.starts-with()
+=============
+text never work with white space
 
+syntax:
+==========
+//tagname[text()='text']
+
+<a>Mobiles</a>
+
+//a[text()='Mobiles']
+
+2.normalize-space()
+=======================
+this method identify text and ignore white space
+
+syntax:
+=======
+//tagname[normalize-space()='text']
+
+
+3.contains()-partial match
+=================
+Syntax:
+============
+//tagname[contains(@attribute,'partial value')]
+
+or
+//tagname[contains(text(),'text')]
+
+
+//input[contains(@id,'tabsearchtex')]
+
+
+4.starts-with()-prefix value
+================
+Syntax:
+============
+//tagname[starts-with(@attribute,'prefix value')]
+
+or
+//tagname[starts-with(text(),'prefix text')]
+=============================================================
 Xpath Axies
 ================
-1.Following 
-2.preceding
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1.Following
+===================
+Syntax:
+=============
+//tagname[@attribute1='value']//following::tagname of following element
  
+ //input[@id='twotabsearchtextbox']//following::a[normalize-space()='Electronics']
+2.preceding
+===================
+//tagname[@attribute1='value']//preceding::tagname of following element
+
+=====================================================\
+TestNg Installation
+======================
+How to automate any dropdown
+================================
+
+How to automate 
+=================
+Multiple Window 
+Alerts
+frame
+
+calendar
+webtable
+Actions class
+
+Framework
+=================
+1.testng
+
+2.cucumber
 
 
+Hybrid framework design
 
-
-
-
+Reports
 
 
 
