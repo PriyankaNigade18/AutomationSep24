@@ -456,11 +456,36 @@ Syntax:
 ===================
 //tagname[@attribute1='value']//preceding::tagname of following element
 
-=====================================================\
+=====================================================
+
 TestNg Installation
 ======================
 How to automate any dropdown
 ================================
+1.Select tag based dropdown
+-------------------------------
+Selenium provides Select class
+
+Is dropdown support multiple selection?
+-------------------------------------
+isMultiple()
+
+single selection
+------------------
+1.selectByIndex()
+2.selectByValue()
+3.selectByVisibleText()
+
+2.Bootstrap/javascript/dynamic
+---------------------------------
+xpath
+
+
+To get all options
+------------------------
+getOptions()
+
+
 
 How to automate 
 =================
