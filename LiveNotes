@@ -475,21 +475,24 @@ single selection
 1.selectByIndex()
 2.selectByValue()
 3.selectByVisibleText()
-
+To get all options
+------------------------
+getOptions()
+=======================
 2.Bootstrap/javascript/dynamic
 ---------------------------------
 xpath
 
-
-To get all options
-------------------------
-getOptions()
-
-
-
+========================================================
 How to automate 
 =================
 Multiple Window 
+=====================
+1.getWindowHandle()
+2.getWnodwHandles()
+3.switchTo()
+
+
 Alerts
 frame
 
