@@ -492,11 +492,30 @@ Multiple Window
 2.getWnodwHandles()
 3.switchTo()
 
-
+calendar
+==================
+done
+===============================================
 Alerts
+============
+Selenium provides Alert interface
+
+Alert at=driver.switchTo().alert();
+
+1.Ok===>accept()
+2.cancel===>dismiss()
+3.Prompt alert-->pass data-->sendKeys()
+4.to get the alert text- getText()
+
+
+
+
+
+
+
 frame
 
-calendar
+
 webtable
 Actions class
 

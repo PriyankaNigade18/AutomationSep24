@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-17T19:45:51 IST" name="Default suite" finished-at="2024-10-17T19:46:09 IST" duration-ms="18315">
+  <suite started-at="2024-10-18T20:06:14 IST" name="Default suite" finished-at="2024-10-18T20:06:28 IST" duration-ms="13715">
     <groups>
     </groups>
-    <test started-at="2024-10-17T19:45:51 IST" name="Default test" finished-at="2024-10-17T19:46:09 IST" duration-ms="18315">
-      <class name="com.webTesting.WebElementScenarios.MultipleWindowHandling">
-        <test-method signature="testWindow()[pri:0, instance:com.webTesting.WebElementScenarios.MultipleWindowHandling@35aea049]" started-at="2024-10-17T19:45:51 IST" name="testWindow" finished-at="2024-10-17T19:46:09 IST" duration-ms="18255" status="PASS">
+    <test started-at="2024-10-18T20:06:14 IST" name="Default test" finished-at="2024-10-18T20:06:28 IST" duration-ms="13715">
+      <class name="com.webTesting.WebElementScenarios.AlertHandling">
+        <test-method signature="testAlert()[pri:0, instance:com.webTesting.WebElementScenarios.AlertHandling@1da2cb77]" started-at="2024-10-18T20:06:14 IST" name="testAlert" finished-at="2024-10-18T20:06:28 IST" duration-ms="13656" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWindow -->
-      </class> <!-- com.webTesting.WebElementScenarios.MultipleWindowHandling -->
+        </test-method> <!-- testAlert -->
+      </class> <!-- com.webTesting.WebElementScenarios.AlertHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

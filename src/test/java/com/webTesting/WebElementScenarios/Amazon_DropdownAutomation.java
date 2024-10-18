@@ -21,10 +21,7 @@ public class Amazon_DropdownAutomation
 	
 	//identify address of dropdown
 	WebElement dropdownele=driver.findElement(By.name("url"));
-	
 	Utility.selectBasedDropdown(dropdownele,"Books");
-	
-	
 	
 	/*
 	//create object of Select class
