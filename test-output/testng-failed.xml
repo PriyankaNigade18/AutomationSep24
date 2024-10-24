@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webTesting.WebElementScenarios.AlertHandling">
+      <class name="com.webTesting.WebElementScenarios.FrameHandling">
         <methods>
-          <include name="testAlert"/>
+          <include name="frameTest"/>
         </methods>
-      </class> <!-- com.webTesting.WebElementScenarios.AlertHandling -->
+      </class> <!-- com.webTesting.WebElementScenarios.FrameHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

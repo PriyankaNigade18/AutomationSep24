@@ -507,16 +507,21 @@ Alert at=driver.switchTo().alert();
 3.Prompt alert-->pass data-->sendKeys()
 4.to get the alert text- getText()
 
-
-
-
-
-
-
+================================
 frame
+===========
+Html document inside another html document is called frame
+<frame>
+<iframe>
 
+driver.swicthTo().frame(index)
+driver.swicthTo().frame(id/name)
+driver.swicthTo().frame(WebElement)
 
-webtable
+============================================
+Webtable
+=============
+
 Actions class
 
 Framework
