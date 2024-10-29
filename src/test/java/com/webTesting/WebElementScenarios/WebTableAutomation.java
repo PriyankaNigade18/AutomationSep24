@@ -149,8 +149,22 @@ public void testPeginationTable()
 	int totalPages=driver.findElements(By.xpath("//ul[@class='pagination']//li//a")).size();
 	System.out.println("Total pages in the table: "+totalPages);//4
 	
-	
+	List<WebElement> list=driver.findElements(By.xpath("//ul[@class='pagination']//li//a"));
 	//open page number 3--->goto Fitness Tracker and check the checkbox
+	for(WebElement i:list)
+	{
+		if(i.getText().contains("3"))
+		{
+			i.click();
+			driver.findElement(By.xpath("//table[@id='productTable']//tbody//tr[4]//td[4]//input")).click();
+			break;
+		}
+	}
+	
+	////table[@id='productTable']//tbody//tr[4]//td[text()='Fitness Tracker']//following-sibling::td[2]//input
+	
+	
+	
 }
   
   

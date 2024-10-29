@@ -521,12 +521,37 @@ driver.swicthTo().frame(WebElement)
 ============================================
 Webtable
 =============
+done
 
 Actions class
+====================
+mouse operations
+1.right click--->contextClick()
+2.double click----->doubleClick()
+3.drag n drop---->dragAndDrop(src,dest)
+4.mouse over---->moveToElement()
+
+After Diwali
+-----------------------
+2.Explicit
+=================
+- It is applicable to single webelement as per there condition
+
+1.WebDriverWait class
+2.FluentWait Class
+
+JavascriptExecutor
+=============================
 
 Framework
 =================
 1.testng
+
+================
+
+
+data 
+
 
 2.cucumber
 
