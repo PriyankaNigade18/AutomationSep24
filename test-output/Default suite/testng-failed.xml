@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ActionsClass.DragandDropAction">
+      <class name="com.seleniumWait.ExplicitWaitUsingWebDriverWaitClass">
         <methods>
-          <include name="testDragandDrop"/>
+          <include name="testWait"/>
         </methods>
-      </class> <!-- com.ActionsClass.DragandDropAction -->
+      </class> <!-- com.seleniumWait.ExplicitWaitUsingWebDriverWaitClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

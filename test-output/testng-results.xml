@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-29T19:37:05 IST" name="Default suite" finished-at="2024-10-29T19:37:10 IST" duration-ms="4612">
+  <suite started-at="2024-11-13T19:49:34 IST" name="Default suite" finished-at="2024-11-13T19:49:45 IST" duration-ms="11586">
     <groups>
     </groups>
-    <test started-at="2024-10-29T19:37:05 IST" name="Default test" finished-at="2024-10-29T19:37:10 IST" duration-ms="4612">
-      <class name="com.ActionsClass.TooltipTesting">
-        <test-method signature="testTooltip()[pri:0, instance:com.ActionsClass.TooltipTesting@611889f4]" started-at="2024-10-29T19:37:05 IST" name="testTooltip" finished-at="2024-10-29T19:37:10 IST" duration-ms="4555" status="PASS">
+    <test started-at="2024-11-13T19:49:34 IST" name="Default test" finished-at="2024-11-13T19:49:45 IST" duration-ms="11586">
+      <class name="com.seleniumWait.ExplicitWaitUsingFluentWaitClass">
+        <test-method signature="f()[pri:0, instance:com.seleniumWait.ExplicitWaitUsingFluentWaitClass@3b6ddd1d]" started-at="2024-11-13T19:49:34 IST" name="f" finished-at="2024-11-13T19:49:45 IST" duration-ms="11523" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTooltip -->
-      </class> <!-- com.ActionsClass.TooltipTesting -->
+        </test-method> <!-- f -->
+      </class> <!-- com.seleniumWait.ExplicitWaitUsingFluentWaitClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
