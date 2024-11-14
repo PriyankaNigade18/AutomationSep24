@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumWait.ExplicitWaitUsingWebDriverWaitClass">
+      <class name="com.ActionsClass.JavaScriptExecutorTest">
         <methods>
-          <include name="testWait"/>
+          <include name="testScroll"/>
         </methods>
-      </class> <!-- com.seleniumWait.ExplicitWaitUsingWebDriverWaitClass -->
+      </class> <!-- com.ActionsClass.JavaScriptExecutorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
