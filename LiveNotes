@@ -550,6 +550,29 @@ Framework
 1.testng
 
 ================
+How to disable any test case from execution
+=================================================
+1.enabled=false
+
+2.Method exclude-using testng.xml file
+
+============================================
+Assertion
+================
+Assertion will hemp you to validate certain state of the application
+
+selenium provides two types
+=======================
+1.Hard Assertion(Assert Class)
+2.Soft Assertion (SoftAssert class)
+
+assertEquals(act,exp): pass
+
+assertTrue(true): pass
+
+assertFalse(false): pass
+
+
 
 
 data 

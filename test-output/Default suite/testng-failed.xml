@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ActionsClass.JavaScriptExecutorTest">
+      <class name="com.TestNG.AssertionDemo">
         <methods>
-          <include name="testScroll"/>
+          <include name="softAssertionTest"/>
         </methods>
-      </class> <!-- com.ActionsClass.JavaScriptExecutorTest -->
+      </class> <!-- com.TestNG.AssertionDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
