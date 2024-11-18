@@ -559,7 +559,7 @@ How to disable any test case from execution
 ============================================
 Assertion
 ================
-Assertion will hemp you to validate certain state of the application
+Assertion will help you to validate certain state of the application
 
 selenium provides two types
 =======================
@@ -571,11 +571,10 @@ assertEquals(act,exp): pass
 assertTrue(true): pass
 
 assertFalse(false): pass
+====================================
+Annotation
+=====================
 
-
-
-
-data 
 
 
 2.cucumber

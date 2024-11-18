@@ -1,59 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-15T20:12:33 IST" name="Default suite" finished-at="2024-11-15T20:12:33 IST" duration-ms="106">
+  <suite started-at="2024-11-18T19:45:42 IST" name="Suite" finished-at="2024-11-18T19:45:42 IST" duration-ms="208">
     <groups>
     </groups>
-    <test started-at="2024-11-15T20:12:33 IST" name="Default test" finished-at="2024-11-15T20:12:33 IST" duration-ms="106">
-      <class name="com.TestNG.AssertionDemo">
-        <test-method signature="softAssertionTest()[pri:0, instance:com.TestNG.AssertionDemo@7205765b]" started-at="2024-11-15T20:12:33 IST" name="softAssertionTest" finished-at="2024-11-15T20:12:33 IST" duration-ms="31" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Test Fail: As numbers are not equal expected [200] but found [100]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Test Fail: As numbers are not equal expected [200] but found [100]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.TestNG.AssertionDemo.softAssertionTest(AssertionDemo.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2024-11-18T19:45:42 IST" name="Test1" finished-at="2024-11-18T19:45:42 IST" duration-ms="86">
+      <class name="com.TestNG.Annotation.ClassA">
+        <test-method signature="testCase1()[pri:0, instance:com.TestNG.Annotation.ClassA@1a18644]" started-at="2024-11-18T19:45:42 IST" name="testCase1" finished-at="2024-11-18T19:45:42 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- softAssertionTest -->
-      </class> <!-- com.TestNG.AssertionDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.TestNG.Annotation.ClassA@1a18644]" started-at="2024-11-18T19:45:42 IST" name="testCase2" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.TestNG.Annotation.ClassA -->
+      <class name="com.TestNG.Annotation.ClassB">
+        <test-method is-config="true" signature="btest()[pri:0, instance:com.TestNG.Annotation.ClassB@23c30a20]" started-at="2024-11-18T19:45:42 IST" name="btest" finished-at="2024-11-18T19:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method signature="testCase3()[pri:0, instance:com.TestNG.Annotation.ClassB@23c30a20]" started-at="2024-11-18T19:45:42 IST" name="testCase3" finished-at="2024-11-18T19:45:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.TestNG.Annotation.ClassB@23c30a20]" started-at="2024-11-18T19:45:42 IST" name="testCase4" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="atest()[pri:0, instance:com.TestNG.Annotation.ClassB@23c30a20]" started-at="2024-11-18T19:45:42 IST" name="atest" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+      </class> <!-- com.TestNG.Annotation.ClassB -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-11-18T19:45:42 IST" name="Test2" finished-at="2024-11-18T19:45:42 IST" duration-ms="17">
+      <class name="com.TestNG.Annotation.ClassA">
+        <test-method signature="testCase1()[pri:0, instance:com.TestNG.Annotation.ClassA@52719fb6]" started-at="2024-11-18T19:45:42 IST" name="testCase1" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.TestNG.Annotation.ClassA@52719fb6]" started-at="2024-11-18T19:45:42 IST" name="testCase2" finished-at="2024-11-18T19:45:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.TestNG.Annotation.ClassA -->
+      <class name="com.TestNG.Annotation.ClassB">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="bsuite" finished-at="2024-11-18T19:45:42 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method is-config="true" signature="btest()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="btest" finished-at="2024-11-18T19:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method signature="testCase3()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="testCase3" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="testCase4" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="atest()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="atest" finished-at="2024-11-18T19:45:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method is-config="true" signature="asuite()[pri:0, instance:com.TestNG.Annotation.ClassB@3012646b]" started-at="2024-11-18T19:45:42 IST" name="asuite" finished-at="2024-11-18T19:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asuite -->
+      </class> <!-- com.TestNG.Annotation.ClassB -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
