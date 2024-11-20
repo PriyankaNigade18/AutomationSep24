@@ -575,14 +575,33 @@ assertFalse(false): pass
 Annotation
 =====================
 
+Page Object model
+============
+1.By locator
+2.PageFactory class
+====================================
+How to pass data
+=======================
+1.Using testng xml file
+2.using properties file
+
+Data driven testing
+======================
+Excel------>test case
 
 
-2.cucumber
-
+Screenshot
+=================
 
 Hybrid framework design
 
 Reports
+
+2.cucumber
+===============
+
+
+
 
 
 
