@@ -585,8 +585,16 @@ How to pass data
 1.Using testng xml file
 2.using properties file
 
+How to implement object repository in selenium
+============================================
+1.Page Object
+2.Properties file
+
+-------------------------------------------------------
 Data driven testing
 ======================
+1.using array
+2.using excel
 Excel------>test case
 
 

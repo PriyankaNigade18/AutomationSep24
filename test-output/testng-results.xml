@@ -1,36 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T20:39:07 IST" name="Suite" finished-at="2024-11-20T20:39:15 IST" duration-ms="7691">
+  <suite started-at="2024-11-22T19:49:12 IST" name="Default suite" finished-at="2024-11-22T19:49:12 IST" duration-ms="114">
     <groups>
     </groups>
-    <test started-at="2024-11-20T20:39:07 IST" name="Test" finished-at="2024-11-20T20:39:15 IST" duration-ms="7691">
-      <class name="com.TestNG.PageObjectUsingByLocator.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.PageObjectUsingByLocator.LoginPageTest@4dbb42b7]" started-at="2024-11-20T20:39:07 IST" name="setup" finished-at="2024-11-20T20:39:12 IST" duration-ms="5513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validateUrl()[pri:1, instance:com.TestNG.PageObjectUsingByLocator.LoginPageTest@4dbb42b7]" started-at="2024-11-20T20:39:12 IST" name="validateUrl" finished-at="2024-11-20T20:39:13 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUrl -->
-        <test-method signature="validateTitle()[pri:2, instance:com.TestNG.PageObjectUsingByLocator.LoginPageTest@4dbb42b7]" started-at="2024-11-20T20:39:13 IST" name="validateTitle" finished-at="2024-11-20T20:39:13 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method signature="validateLogin(java.lang.String)[pri:3, instance:com.TestNG.PageObjectUsingByLocator.LoginPageTest@4dbb42b7]" started-at="2024-11-20T20:39:13 IST" name="validateLogin" finished-at="2024-11-20T20:39:15 IST" duration-ms="2065" status="PASS">
+    <test started-at="2024-11-22T19:49:12 IST" name="Default test" finished-at="2024-11-22T19:49:12 IST" duration-ms="114">
+      <class name="com.DataDrivenTesting.DataDrivenUsingArray">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[Admin]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogin -->
-      </class> <!-- com.TestNG.PageObjectUsingByLocator.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.DataDrivenTesting.DataDrivenUsingArray -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
