@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T19:49:12 IST" name="Default suite" finished-at="2024-11-22T19:49:12 IST" duration-ms="114">
+  <suite started-at="2024-11-25T19:45:56 IST" name="Default suite" finished-at="2024-11-25T19:45:57 IST" duration-ms="1099">
     <groups>
     </groups>
-    <test started-at="2024-11-22T19:49:12 IST" name="Default test" finished-at="2024-11-22T19:49:12 IST" duration-ms="114">
-      <class name="com.DataDrivenTesting.DataDrivenUsingArray">
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-11-25T19:45:56 IST" name="Default test" finished-at="2024-11-25T19:45:57 IST" duration-ms="1099">
+      <class name="com.TestNG.DataPassing.ExcelFileReading">
+        <test-method signature="fileRead()[pri:0, instance:com.TestNG.DataPassing.ExcelFileReading@1af2d44a]" started-at="2024-11-25T19:45:56 IST" name="fileRead" finished-at="2024-11-25T19:45:57 IST" duration-ms="1034" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kiran]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenTesting.DataDrivenUsingArray@618425b5]" started-at="2024-11-22T19:49:12 IST" name="loginTest" data-provider="arraydata" finished-at="2024-11-22T19:49:12 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.DataDrivenTesting.DataDrivenUsingArray -->
+        </test-method> <!-- fileRead -->
+      </class> <!-- com.TestNG.DataPassing.ExcelFileReading -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

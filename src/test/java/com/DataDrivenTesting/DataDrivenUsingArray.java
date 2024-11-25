@@ -5,14 +5,14 @@ import org.testng.annotations.Test;
 
 public class DataDrivenUsingArray 
 {
-	@DataProvider(name="arraydata")
-	public Object[][] testData()
-	{
-		Object data[][]= {{"Admin","admin123"},{"Kiran","test123"},{"Admin","admin123"},{"Ram","test123"}};
-		return data;
-	}
+//	@DataProvider(name="arraydata")
+//	public Object[][] testData()
+//	{
+//		Object data[][]= {{"Admin","admin123"},{"Kiran","test123"},{"Admin","admin123"},{"Ram","test123"}};
+//		return data;
+//	}
 	
-  @Test(dataProvider = "arraydata")
+  @Test(dataProvider = "arraydata",dataProviderClass = CustomData.class)
   public void loginTest(String un,String psw) 
   {
 	  System.out.println("User name is: "+un);
