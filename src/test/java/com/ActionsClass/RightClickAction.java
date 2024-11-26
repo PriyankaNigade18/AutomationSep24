@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 public class RightClickAction {
   @Test
   public void testAction() throws InterruptedException 
@@ -17,6 +19,7 @@ public class RightClickAction {
 	  WebDriver driver=new ChromeDriver();
 	  driver.get("https://demo.guru99.com/test/simple_context_menu.html");
 	  
+	  Utility.takeScreenshot(driver,"Guru99HomePage");
 	  //element
 	  WebElement ele=driver.findElement(By.xpath("//span[text()='right click me']"));
 	  
@@ -26,6 +29,7 @@ public class RightClickAction {
 	  
 	  act.contextClick(ele).build().perform();
 	  
+	  Utility.takeScreenshot(driver,"RightclickAction");
 	  List<WebElement> list=driver.findElements(By.xpath("(//ul)[3]//li//span"));
 	  
 	  for(WebElement i:list)

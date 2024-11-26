@@ -597,15 +597,30 @@ Data driven testing
 2.using excel
 Excel------>test case
 Apache POI
-
-
-
 Screenshot
 =================
-
 Hybrid framework design
+=====================
+design
+==============
+1.page Object model
+2.test cases
+3.base class
+4.utility
+5.testdata
+
+
+Execution
+=============
+1.Maven execution
+1.using pom.xml
+2.using cli
+3.using jenkins
 
 Reports
+==============
+tesng reports
+Extent report
 
 2.cucumber
 ===============

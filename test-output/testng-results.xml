@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T19:45:56 IST" name="Default suite" finished-at="2024-11-25T19:45:57 IST" duration-ms="1099">
+  <suite started-at="2024-11-26T19:22:24 IST" name="Default suite" finished-at="2024-11-26T19:22:31 IST" duration-ms="7517">
     <groups>
     </groups>
-    <test started-at="2024-11-25T19:45:56 IST" name="Default test" finished-at="2024-11-25T19:45:57 IST" duration-ms="1099">
-      <class name="com.TestNG.DataPassing.ExcelFileReading">
-        <test-method signature="fileRead()[pri:0, instance:com.TestNG.DataPassing.ExcelFileReading@1af2d44a]" started-at="2024-11-25T19:45:56 IST" name="fileRead" finished-at="2024-11-25T19:45:57 IST" duration-ms="1034" status="PASS">
+    <test started-at="2024-11-26T19:22:24 IST" name="Default test" finished-at="2024-11-26T19:22:31 IST" duration-ms="7517">
+      <class name="com.ActionsClass.RightClickAction">
+        <test-method signature="testAction()[pri:0, instance:com.ActionsClass.RightClickAction@58d75e99]" started-at="2024-11-26T19:22:24 IST" name="testAction" finished-at="2024-11-26T19:22:31 IST" duration-ms="7454" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileRead -->
-      </class> <!-- com.TestNG.DataPassing.ExcelFileReading -->
+        </test-method> <!-- testAction -->
+      </class> <!-- com.ActionsClass.RightClickAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
