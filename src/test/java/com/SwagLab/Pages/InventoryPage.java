@@ -25,6 +25,9 @@ public class InventoryPage
 	 @FindBy(xpath="//button[text()='Add to cart']")
 	 WebElement addtocartBtn;
 	 
+	 @FindBy(xpath="//a[@class='shopping_cart_link']")
+	 WebElement cartOption;
+	 
 	 //methods
 	 
 	 
@@ -44,6 +47,34 @@ public class InventoryPage
 		 
 	 }
 	 
+	 public void addProductToCart(String pname)
+	 {
+		 
+		 for(WebElement i:totalProduct)
+		 {
+			 if(i.getText().contains(pname))
+			 {
+				i.click();
+				break;
+			 }
+				 
+		
+		 }
+		 
+		 addtocartBtn.click();
+		 System.out.println("Product added to cart: "+pname);
+		 
+		 
+		 
+	 }
+	 
+	 
+	 public CartPage openCartPage()
+	 {
+		 cartOption.click();
+		 //navigating to cart page
+		 return new CartPage(driver);
+	 }
 	 
 	 
 	 

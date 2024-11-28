@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SwagLab.TestCases.LoginPageTest">
+      <class name="com.SwagLab.TestCases.InventoryTest">
         <methods>
-          <include name="validateTitle"/>
           <include name="setUp"/>
-          <include name="validateLogin"/>
-          <include name="validateUrl"/>
+          <include name="validateAddTocartFeature"/>
+          <include name="validateTotalProducts"/>
+          <include name="validateLaunchingOfCartPage"/>
         </methods>
-      </class> <!-- com.SwagLab.TestCases.LoginPageTest -->
+      </class> <!-- com.SwagLab.TestCases.InventoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

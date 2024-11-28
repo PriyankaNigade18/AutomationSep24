@@ -15,6 +15,8 @@ public class BaseClass
 	public WebDriver driver;
 	public PropertiesUtil prop;
 	public LoginPage lp;
+	public InventoryPage ip;
+	public CartPage cp;
 	
 	@BeforeTest
 	public void setUp()
@@ -23,10 +25,29 @@ public class BaseClass
 		driver=new ChromeDriver();
 		driver.get(prop.getData("url"));
 		lp=new LoginPage(driver);
+		ip=new InventoryPage(driver);
+		cp=new CartPage(driver);
 		
 		
 		
 	}
 	
+	public void addWait()
+	{
+		try {
+			Thread.sleep(1500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 	
+	
+	
+//	@AfterTest
+//	public void teardown()
+//	{
+//		driver.quit();
+//	}
 }

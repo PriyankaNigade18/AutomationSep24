@@ -41,13 +41,14 @@ public class LoginPage
 		return driver.getTitle();
 	}
 	
-	public void doLogin(String un,String psw)
+	public InventoryPage doLogin(String un,String psw)
 	{
 		username.sendKeys(un);
 		password.sendKeys(psw);
 		loginBtn.click();
 		
 		//navigate to inventory page
+		return new InventoryPage(driver);
 		
 	}
 	
