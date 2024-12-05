@@ -1,0 +1,9 @@
+com\SwagLab\Pages\CartPage.class
+com\SwagLab\Pages\LoginPage.class
+com\SwagLab\TestCases\CartTest.class
+com\SwagLab\Utility\PropertiesUtil.class
+com\SwagLab\Pages\InventoryPage.class
+com\SwagLab\TestCases\InventoryTest.class
+com\SwagLab\Utility\Utility.class
+com\SwagLab\TestCases\BaseClass.class
+com\SwagLab\TestCases\LoginPageTest.class
