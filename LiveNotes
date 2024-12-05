@@ -609,10 +609,31 @@ design
 4.utility
 5.testdata
 
+home work : complete the design for last two pages
 
 Execution
 =============
 1.Maven execution
+================================
+We need plugins to add
+=======================
+1.compilerplugin
+https://maven.apache.org/plugins/maven-compiler-plugin/
+
+2.surefire plugin
+https://maven.apache.org/surefire/maven-surefire-plugin/
+
+Maven Goal
+==============
+1.clean goal:
+--------------------
+delete all the files from target folder 
+
+2.test goal:
+------------------
+test the project
+
+
 1.using pom.xml
 2.using cli
 3.using jenkins
