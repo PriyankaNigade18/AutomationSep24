@@ -35,7 +35,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.27.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -44,6 +44,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>1.14.0</version>
+		</dependency>
 
 
 	</dependencies>
